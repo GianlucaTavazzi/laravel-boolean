@@ -2,27 +2,16 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Boolean Careers</title>
         <link rel="stylesheet" href="{{ asset('css/app.css')}}">
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6369196dab.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
-            <img src="https://www.boolean.careers/images/common/logo.png" alt="logo">
-            <nav>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">CORSO</a></li>
-                    <li><a href="#">DOPO IL CORSO</a></li>
-                    <li><a href="#">LEZIONE GRATUITA</a></li>
-                    <li><a href="#">ASSUMI I NOSTRI STUDENTI</a></li>
-                    <li><a href="#">CANDIDATI ORA</a></li>
-                </ul>
-            </nav>
-        </header>
+        @include('partials.header')
         <main>
             <section class="jumbotron">
-                <div class="conteiner">
+                <div class="container">
                     <div class="jumbotron-left">
                         <h1>DIVENTA SVILUPPATORE WEB</h1>
                         <p>Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</p>
@@ -52,5 +41,6 @@
                 </div>
             </section>
         </main>
+        @include('partials.footer')
     </body>
 </html>

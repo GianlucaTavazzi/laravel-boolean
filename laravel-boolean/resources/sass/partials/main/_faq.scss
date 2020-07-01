@@ -1,0 +1,43 @@
+.title{
+    .container{
+        width: 100%;
+        padding: 70px 100px;
+
+        h1{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.faq-container{
+
+    display: flex;
+
+    .faq-container-left{
+        padding: 70px 100px;
+        width: 50%;
+        background-color: #e8ebf1;
+    }
+
+    .faq-container-right{
+        padding: 70px 100px;
+        width: 50%;
+        background-color: #1b3c59;
+        color: white;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+}
