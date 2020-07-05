@@ -13,8 +13,8 @@
         <div class="footer-right">
             <ul>
                 <li><a href="#"></a>Lezione gratuita</li>
-                <li><a href="#"></a>Domande frequenti</li>
-                <li><a href="#"></a>Privacy policy</li>
+                <li><a href=" {{ route('FAQ') }} ">Domande frequenti</a></li>
+                <li><a href=" {{ route('privacy-policy') }} ">Privacy policy</a></li>
                 <li><a href="#"></a>Lavora con noi</li>
             </ul>
         </div>
