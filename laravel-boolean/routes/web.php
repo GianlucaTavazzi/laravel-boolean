@@ -13,14 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
-}) ->name('homepage');
+Route::get('/', 'MyController@index') ->name('homepage');
 
-Route::get('/privacy-policy', function () {
-    return view('privacy-policy');
-}) ->name('privacy-policy');
+Route::get('/privacy-policy', 'MyController@privacypolicy') ->name('privacy-policy');
 
-Route::get('/faq', function () {
-    return view('faq');
-}) ->name('FAQ');
+Route::get('/faq', 'MyController@FAQ') ->name('FAQ');
